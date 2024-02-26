@@ -1,0 +1,22 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot powered by ChatGPT",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.cjs"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^6.3.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "gtts": "^0.2.1",
+    "node-record-lpcm16": "^1.0.1",
+    "openai": "^3.3.0",
+    "play-sound": "^1.1.6",
+    "readline-sync": "^1.4.10"
+  }
+}
